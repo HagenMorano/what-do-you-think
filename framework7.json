@@ -1,0 +1,42 @@
+{
+  "cwd": "/home/hagenzone/projects/what-do-you-think",
+  "type": [
+    "pwa",
+    "cordova",
+    "web"
+  ],
+  "name": "What do you think",
+  "pkg": "de.hagenmorano.whatdoyouthink",
+  "framework": "svelte",
+  "template": "tabs",
+  "cssPreProcessor": "scss",
+  "bundler": "webpack",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen",
+      "cordova-plugin-wkwebview-engine"
+    ]
+  },
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}

@@ -1,0 +1,77 @@
+[
+    {
+        "uuid": "123",
+        "id": "1",
+        "uuidGame": "123",
+        "uuidUserGamemaster": "123",
+        "closed": true,
+        "question": "Wie gehts dem kleinen Hagen?",
+        "answers": [
+            {
+                "uuidUser": "124",
+                "content": "Dem gehts echt schlecht",
+                "votes": 0
+            },
+            {
+                "uuidUser": "125",
+                "content": "Keine Ahnung.",
+                "votes": 0
+            },
+            {
+                "uuidUser": "126",
+                "content": "Wahrscheinlich gut...",
+                "votes": 0
+            }
+        ]
+    },
+    {
+        "uuid": "124",
+        "id": "2",
+        "uuidGame": "123",
+        "uuidUserGamemaster": "123",
+        "closed": true,
+        "question": "Wie gehts der kleinen Kristin?",
+        "answers": [
+            {
+                "uuidUser": "124",
+                "content": "Der gehts echt schlecht",
+                "votes": 0
+            },
+            {
+                "uuidUser": "125",
+                "content": "Keine Ahnung.",
+                "votes": 0
+            },
+            {
+                "uuidUser": "126",
+                "content": "Wahrscheinlich gut...",
+                "votes": 0
+            }
+        ]
+    },
+    {
+        "uuid": "125",
+        "id": "3",
+        "uuidGame": "123",
+        "uuidUserGamemaster": "123",
+        "closed": false,
+        "question": "Was sind Schnecken?",
+        "answers": [
+            {
+                "uuidUser": "124",
+                "content": "Tier",
+                "votes": 0
+            },
+            {
+                "uuidUser": "125",
+                "content": "Wolf",
+                "votes": 0
+            },
+            {
+                "uuidUser": "126",
+                "content": "Auto",
+                "votes": 0
+            }
+        ]
+    }
+]

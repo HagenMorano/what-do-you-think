@@ -1,0 +1,31 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-keyboard": {
+      "PACKAGE_NAME": "de.hagenmorano.whatdoyouthink"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "de.hagenmorano.whatdoyouthink"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "de.hagenmorano.whatdoyouthink"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "de.hagenmorano.whatdoyouthink"
+    },
+    "cordova-plugin-wkwebview-file-xhr": {
+      "PACKAGE_NAME": "de.hagenmorano.whatdoyouthink"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-wkwebview-engine": {
+      "PACKAGE_NAME": "de.hagenmorano.whatdoyouthink"
+    }
+  }
+}

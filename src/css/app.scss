@@ -1,0 +1,10 @@
+/* iOS Cordova Tweak */
+.device-cordova.device-ios {
+  height: 100vh;
+}
+
+/* Your app custom styles here */
+.vertical-align-custom {
+  top: 50%;
+  transform: translateY(-50%);
+}

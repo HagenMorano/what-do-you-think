@@ -1,0 +1,20 @@
+<Page>
+  <Navbar title={`${user.firstName} ${user.lastName}`} backLink="Back" />
+  <Block strong>{user.about}</Block>
+  <List>
+    {#each user.links as link}
+      <ListItem link={link.url} title={link.title} external target="_blank" />
+    {/each}
+  </List>
+</Page>
+
+<script>
+  import { f7, Page, Navbar, Block, List, ListItem } from "framework7-svelte";
+
+  export let f7route;
+
+  const user = f7route.context.user;
+  f7.request.get("/static/mock/user.json", data => {
+    console.log(data);
+  });
+</script>
