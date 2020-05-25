@@ -21,7 +21,7 @@
     {#each friends as friend}
       <ListItem>{ friend.username }</ListItem>
     {/each}
-    <ListItem link="/form/" title="Search for friends"/>
+    <ListItem link="/add-friend/" title="Search for friends"/>
   </List>
 
   <BlockTitle>My games</BlockTitle>

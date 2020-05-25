@@ -1,6 +1,7 @@
 
 import HomePage from '../pages/home.svelte';
 import AboutPage from '../pages/about.svelte';
+import AddFriend from '../pages/add-friend.svelte';
 import FormPage from '../pages/form.svelte';
 import GamePage from '../pages/game.svelte';
 import GameRoundPage from '../pages/game-round.svelte';
@@ -45,6 +46,10 @@ var routes = [
   {
     path: '/new-game/',
     component: newGamePage,
+  },
+  {
+    path: '/add-friend/',
+    component: AddFriend,
   },
   {
     path: '/game/:gameId',
